@@ -112,10 +112,7 @@ export function HomePage() {
           </div>
         </div>
         <div className="home-hero__art" aria-hidden="true">
-          <picture>
-            <source srcSet="/images/home/hero-800.webp 800w, /images/home/hero-1600.webp 1600w, /images/home/hero-2400.webp 2400w" sizes="(max-width: 760px) 100vw, (max-width: 1208px) calc(100vw - 48px), 1160px" type="image/webp" />
-            <img src="/images/home/hero-1600.webp" width="1600" height="1067" alt="" fetchPriority="high" decoding="async" />
-          </picture>
+          <img src="/images/home/library-bro-storyset.svg" width="750" height="500" alt="" fetchPriority="high" decoding="async" />
         </div>
       </section>
 

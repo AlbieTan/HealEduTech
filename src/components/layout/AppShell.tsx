@@ -206,6 +206,7 @@ export function AppShell() {
 
       <footer className="evg-footer">
         <span lang="en">EVG · Learn &amp; grow</span>
+        {pathname === '/' && <a href="https://storyset.com/people" lang="en">People illustrations by Storyset</a>}
         <nav aria-label={isVietnamese ? 'Liên kết bổ sung' : 'More links'}>
           <NavLink to="/explore">{t('explore')}</NavLink>
           <NavLink to="/community">{t('community')}</NavLink>
