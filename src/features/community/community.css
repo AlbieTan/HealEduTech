@@ -46,16 +46,62 @@
 .together-concept__steps strong { color: var(--ink); }
 .together-concept__steps span { color: #475e4d; font-size: .875rem; line-height: 1.5; }
 .together-concept__note { margin: 18px 0 0; color: #4e6453; font-size: .8125rem; }
-.together-concept__art { display: grid; justify-items: center; align-self: end; }
-.together-concept__art img { display: block; width: min(100%, 360px); height: auto; }
-.together-concept__art span { color: #4e6453; font-size: .75rem; }
+.growth-demo {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid #c6d5c3;
+  border-radius: 22px;
+  background: #fffdf7;
+}
+.growth-demo__heading h3 { margin: 5px 0; color: var(--ink); font-size: 1.25rem; }
+.growth-demo__heading p { margin: 0; color: #4e6453; font-size: .875rem; line-height: 1.5; }
+.growth-demo__avatar {
+  width: min(100%, 240px);
+  aspect-ratio: 1;
+  margin: 4px auto;
+  background-image: url('/images/together/forest-explorer-growth.png');
+  background-size: 300% 100%;
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+  transition: transform .25s ease;
+}
+.growth-demo__status { display: flex; justify-content: space-between; gap: 12px; color: var(--ink); font-size: .875rem; }
+.growth-demo__status span { white-space: nowrap; }
+.growth-demo progress { display: block; width: 100%; height: 9px; margin: 10px 0 18px; accent-color: var(--green); }
+.growth-demo__actions { display: grid; gap: 8px; }
+.growth-demo__actions button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 46px;
+  border: 1px solid #b8cbb4;
+  border-radius: 10px;
+  background: #f4f8f0;
+  color: var(--ink);
+  padding: 9px 12px;
+  font: inherit;
+  font-size: .8125rem;
+  text-align: left;
+  cursor: pointer;
+}
+.growth-demo__actions button:disabled { cursor: default; opacity: .56; }
+.growth-demo__actions button:focus-visible, .growth-demo__footer button:focus-visible { outline: 3px solid #8caf82; outline-offset: 2px; }
+.growth-demo__actions small { flex-shrink: 0; font-size: .75rem; font-weight: 750; }
+.growth-demo__footer { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.growth-demo__footer p { max-width: 230px; margin: 0; color: #5b6b5c; font-size: .6875rem; line-height: 1.4; }
+.growth-demo__footer button { border: 0; background: none; color: var(--green); font: inherit; font-size: .75rem; text-decoration: underline; cursor: pointer; }
+.growth-demo__footer button:disabled { opacity: .45; cursor: default; }
 @media (max-width: 850px) {
   .together-concept { grid-template-columns: 1fr; }
-  .together-concept__art { grid-row: 1; justify-self: center; }
-  .together-concept__art img { width: min(56vw, 240px); }
+  .growth-demo { grid-row: 1; width: min(100%, 460px); justify-self: center; }
 }
 @media (max-width: 560px) {
   .together-concept__steps { grid-template-columns: 1fr; gap: 14px; }
+  .growth-demo { padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .growth-demo__avatar { transition: none; }
 }
 
 .project-prototype {

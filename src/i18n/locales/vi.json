@@ -123,9 +123,28 @@
     "share": "Chia sẻ",
     "shareBody": "Kể về khám phá với người hướng dẫn.",
     "action": "Tìm hoạt động",
-    "note": "Bản xem thử thiết kế: nhân vật chỉ là hình minh họa. Không ghi điểm, quá trình phát triển hay bài chia sẻ.",
-    "avatarAlt": "Nhân vật thám hiểm rừng bằng pixel art đang cầm sổ tay",
-    "artLabel": "Ý tưởng ban đầu cho bạn đồng hành"
+    "note": "Hãy thử bản minh họa phát triển. Điểm và thao tác mẫu sẽ mất khi em rời trang này."
+  },
+  "togetherGrowth": {
+    "kicker": "BẢN XEM THỬ TƯƠNG TÁC",
+    "title": "Giúp bạn thám hiểm lớn lên",
+    "intro": "Thử ba khoảnh khắc học tập hư cấu để xem một cách khích lệ có thể hoạt động.",
+    "points": "{{points}} / 6 điểm",
+    "progress": "Điểm học tập mẫu",
+    "stage": {
+      "0": { "name": "Mầm tò mò", "alt": "Nhân vật thám hiểm rừng nhỏ bằng pixel với một chiếc lá và sổ tay" },
+      "1": { "name": "Bạn thám hiểm đang lớn", "alt": "Nhân vật thám hiểm rừng bằng pixel với nhiều lá hơn và túi đeo" },
+      "2": { "name": "Bạn thám hiểm biết chia sẻ", "alt": "Nhân vật thám hiểm rừng bằng pixel tươi tốt đang cầm cuốn sổ mở" }
+    },
+    "action": {
+      "try": "Thử một hoạt động",
+      "compare": "So sánh ý tưởng cùng bạn",
+      "explain": "Kể về một khám phá"
+    },
+    "reward": { "try": "+1 điểm", "compare": "+2 điểm", "explain": "+3 điểm" },
+    "done": "Đã thử",
+    "reset": "Làm lại bản thử",
+    "disclaimer": "Chỉ là bản thử. Nhấn nút để nhận điểm mẫu; không kiểm tra, lưu hoặc chia sẻ hoạt động thật của học sinh."
   },
   "communityNextStep": {
     "title": "Bắt đầu bằng một hoạt động nhỏ",

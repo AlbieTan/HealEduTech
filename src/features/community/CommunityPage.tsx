@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { ProjectFeedbackPrototype } from './ProjectFeedbackPrototype';
+import { TogetherGrowthDemo } from './TogetherGrowthDemo';
 import './community.css';
 export function CommunityPage() {
   const { t } = useTranslation();
@@ -25,10 +26,7 @@ export function CommunityPage() {
         <Link className="primary" to="/explore">{t('togetherConcept.action')} →</Link>
         <p className="together-concept__note">{t('togetherConcept.note')}</p>
       </div>
-      <div className="together-concept__art">
-        <img src="/images/together/forest-explorer-concept.png" alt={t('togetherConcept.avatarAlt')} width="512" height="512" />
-        <span>{t('togetherConcept.artLabel')}</span>
-      </div>
+      <TogetherGrowthDemo />
     </section>
     <div className="showcase-grid">{(['garden', 'bridge'] as const).map(key => <article className={`showcase-card showcase-card--${key}`} key={key}>
       <div className="showcase-art" aria-hidden="true">

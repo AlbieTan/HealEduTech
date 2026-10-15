@@ -1,6 +1,6 @@
 # Together: shared learning and companion concept
 
-**Status:** UI concept on `codex/together-avatar-concept`; no points, rewards, avatar growth, learner submissions, or publication are implemented.
+**Status:** Interactive, page-only showcase on `codex/together-avatar-concept`. Sample clicks award 1, 2, and 3 points and change the avatar. No real rewards, learner submissions, persistence, or publication are implemented.
 
 ## Intended learner journey
 
@@ -8,7 +8,7 @@
 2. Try an idea, compare observations, and make a small record.
 3. Discuss a discovery with a facilitator before any optional sharing.
 
-The current Together page contains fictional showcases and a page-only project preview. This draft adds a clearer invitation to collaborate and an original pixel-art forest explorer. The character is illustrative. It does not represent a student's account or progress.
+The current Together page contains fictional showcases and a page-only project preview. This draft adds a clearer invitation to collaborate and an original pixel-art forest explorer. Three buttons demonstrate a possible progression: try an activity, compare ideas with a friend, and explain a discovery. Each button can be used once in order; Reset starts over. The character and points are illustrative and do not represent a student's account or verified progress.
 
 ## Why the companion is optional
 
@@ -28,6 +28,6 @@ This is a design recommendation, not a proven effect in EVG's setting. A quasi-e
 
 ## Artwork
 
-`public/images/together/forest-explorer-concept.png` was generated with the built-in Image Gen tool as an original transparent pixel-art concept. Prompt: “Single original pixel-art avatar concept for the Together tab of an EVG Vietnam educational site serving ages 10–16. An age-neutral tiny forest explorer creature, leafy cloak and field notebook, expression of curiosity and kindness. Crisp square pixels, game sprite style, clean silhouette, forest green/sage/warm cream/tan/muted gold palette. Full body centered, transparent background, no text, no logo, no badge, no points, no ClassDojo resemblance. Readable at 96 px.”
+`public/images/together/forest-explorer-growth.png` was generated with the built-in Image Gen tool as an original transparent three-frame pixel-art concept. Prompt: “Produce one clean three-frame pixel sprite sheet for an educational web demo, transparent RGBA background. Three equal square cells with the same original age-neutral forest explorer companion: tiny seedling explorer, growing explorer, flourishing explorer. The character changes through learning and sharing, not aging or becoming more powerful. Crisp square pixels, limited forest green, sage, cream, tan and muted gold palette; no scenery, floor, text, numbers, or ClassDojo resemblance.”
 
-Before adopting this artwork for a production avatar system, check legibility at small sizes and test its tone with EVG learners. A deterministic sprite set with consistent poses and an opt-out would be needed for actual progression.
+Before adopting this artwork for a production avatar system, check legibility at small sizes and test its tone with EVG learners. Real progression would need verified events, fair recognition criteria, moderation, an opt-out, and a decision about which data are stored or shown to others.

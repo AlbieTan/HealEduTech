@@ -123,9 +123,28 @@
     "share": "Share",
     "shareBody": "Talk through your discovery with a facilitator.",
     "action": "Find an activity",
-    "note": "Design preview: this avatar is illustrative. No points, growth, or sharing are recorded.",
-    "avatarAlt": "Pixel art forest explorer holding a field notebook",
-    "artLabel": "An early companion idea"
+    "note": "Try the sample growth demo. Its points and actions reset when you leave this page."
+  },
+  "togetherGrowth": {
+    "kicker": "INTERACTIVE SHOWCASE",
+    "title": "Help the explorer grow",
+    "intro": "Try three fictional learning moments to see one possible reward loop.",
+    "points": "{{points}} / 6 points",
+    "progress": "Sample learning points",
+    "stage": {
+      "0": { "name": "Curious seedling", "alt": "Small pixel forest explorer with one leaf and a notebook" },
+      "1": { "name": "Growing explorer", "alt": "Pixel forest explorer with more leaves and a satchel" },
+      "2": { "name": "Sharing explorer", "alt": "Flourishing pixel forest explorer holding an open journal" }
+    },
+    "action": {
+      "try": "Try an activity",
+      "compare": "Compare ideas with a friend",
+      "explain": "Explain a discovery"
+    },
+    "reward": { "try": "+1 point", "compare": "+2 points", "explain": "+3 points" },
+    "done": "Done",
+    "reset": "Reset demo",
+    "disclaimer": "Demo only. Clicking gives sample points; no student activity is checked, saved, or shared."
   },
   "communityNextStep": {
     "title": "Start with a small activity",
