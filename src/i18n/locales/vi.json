@@ -112,6 +112,21 @@
   "recommendationsBody": "Hiện tại, em hãy tự do khám phá. Sau này, EVG có thể dùng sở thích của em để gợi ý chủ đề đã duyệt. Chỉ cân nhắc AI khi gợi ý đơn giản chưa đáp ứng được nhu cầu.",
   "communityTitle": "Cùng nhau tìm cảm hứng.",
   "communityBody": "Xem các ví dụ học sinh hư cấu, rồi thử biểu mẫu dự án trên trang này. Chỉ dùng thông tin tưởng tượng.",
+  "togetherConcept": {
+    "kicker": "Ý TƯỞNG CHO CÙNG NHAU",
+    "title": "Khi chia sẻ, sự tò mò lớn lên.",
+    "body": "Thử một điều nhỏ cùng bạn, so sánh những gì các em quan sát được, rồi kể về khám phá của mình với người hướng dẫn. Một bạn đồng hành có thể ghi dấu những khoảnh khắc này mà không biến chúng thành cuộc thi.",
+    "explore": "Khám phá",
+    "exploreBody": "Cùng chọn một hoạt động hoặc cuốn sách.",
+    "make": "Thử làm",
+    "makeBody": "Thử một ý tưởng và ghi lại điều đã xảy ra.",
+    "share": "Chia sẻ",
+    "shareBody": "Kể về khám phá với người hướng dẫn.",
+    "action": "Tìm hoạt động",
+    "note": "Bản xem thử thiết kế: nhân vật chỉ là hình minh họa. Không ghi điểm, quá trình phát triển hay bài chia sẻ.",
+    "avatarAlt": "Nhân vật thám hiểm rừng bằng pixel art đang cầm sổ tay",
+    "artLabel": "Ý tưởng ban đầu cho bạn đồng hành"
+  },
   "communityNextStep": {
     "title": "Bắt đầu bằng một hoạt động nhỏ",
     "body": "Chọn một hoạt động mẫu trong mục Khám phá. Em sẽ thấy gợi ý sách liên quan để xem tiếp.",

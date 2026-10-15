@@ -12,6 +12,24 @@ export function CommunityPage() {
         <p>{t('communityBody')}</p>
       </div>
     </div>
+    <section className="together-concept" aria-labelledby="together-concept-title">
+      <div className="together-concept__copy">
+        <span className="eyebrow">{t('togetherConcept.kicker')}</span>
+        <h2 id="together-concept-title">{t('togetherConcept.title')}</h2>
+        <p>{t('togetherConcept.body')}</p>
+        <ol className="together-concept__steps">
+          <li><strong>{t('togetherConcept.explore')}</strong><span>{t('togetherConcept.exploreBody')}</span></li>
+          <li><strong>{t('togetherConcept.make')}</strong><span>{t('togetherConcept.makeBody')}</span></li>
+          <li><strong>{t('togetherConcept.share')}</strong><span>{t('togetherConcept.shareBody')}</span></li>
+        </ol>
+        <Link className="primary" to="/explore">{t('togetherConcept.action')} →</Link>
+        <p className="together-concept__note">{t('togetherConcept.note')}</p>
+      </div>
+      <div className="together-concept__art">
+        <img src="/images/together/forest-explorer-concept.png" alt={t('togetherConcept.avatarAlt')} width="512" height="512" />
+        <span>{t('togetherConcept.artLabel')}</span>
+      </div>
+    </section>
     <div className="showcase-grid">{(['garden', 'bridge'] as const).map(key => <article className={`showcase-card showcase-card--${key}`} key={key}>
       <div className="showcase-art" aria-hidden="true">
         <picture>

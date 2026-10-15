@@ -112,6 +112,21 @@
   "recommendationsBody": "For now, browse freely. Later, EVG can use your interests to suggest reviewed topics. AI will only be considered after simple recommendations prove insufficient.",
   "communityTitle": "A little inspiration, together.",
   "communityBody": "See fictional student examples, then try a short project preview on this page. Use made-up information only.",
+  "togetherConcept": {
+    "kicker": "TOGETHER CONCEPT",
+    "title": "Curiosity grows when we share it.",
+    "body": "Try something small with a friend, compare what you notice, and bring your discovery to a facilitator. A learning companion could mark those moments without turning them into a contest.",
+    "explore": "Explore",
+    "exploreBody": "Pick an activity or a book together.",
+    "make": "Make",
+    "makeBody": "Try an idea and record what happened.",
+    "share": "Share",
+    "shareBody": "Talk through your discovery with a facilitator.",
+    "action": "Find an activity",
+    "note": "Design preview: this avatar is illustrative. No points, growth, or sharing are recorded.",
+    "avatarAlt": "Pixel art forest explorer holding a field notebook",
+    "artLabel": "An early companion idea"
+  },
   "communityNextStep": {
     "title": "Start with a small activity",
     "body": "Pick one sample activity in Explore. It will suggest a related book to browse next.",
