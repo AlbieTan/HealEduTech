@@ -31,7 +31,10 @@ export function ActivityCard({ topic }: { topic: Topic }) {
           <ol>{(t(`activities.${topic}.steps`, { returnObjects: true }) as string[]).map((step, stepIndex) => <li key={stepIndex}>{step}</li>)}</ol>
           <h3>{t('activityReflect')}</h3>
           <p>{t(`activities.${topic}.reflection`)}</p>
-          <Link className="activity-next-link" to={`/library?topic=${topic}`}>{t('activityRelatedBooks', { topic: t(`topics.${topic}`) })} →</Link>
+          <div className="activity-detail__links">
+            <Link className="activity-next-link" to={`/community?topic=${topic}`}>{t('togetherJourney.exploreAction')} →</Link>
+            <Link className="activity-next-link" to={`/library?topic=${topic}`}>{t('activityRelatedBooks', { topic: t(`topics.${topic}`) })} →</Link>
+          </div>
         </div>
       </div>
     </div>

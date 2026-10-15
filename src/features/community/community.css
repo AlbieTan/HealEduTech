@@ -1,3 +1,35 @@
+.together-heading { margin-bottom: 18px; }
+.together-heading h1 { max-width: 850px; }
+.together-heading p { max-width: 760px; }
+.together-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 34px; }
+.together-jump a, .together-topic-list a { display: inline-flex; align-items: center; min-height: 44px; padding: 9px 16px; border: 1px solid #c8d9c8; border-radius: 999px; background: #fff; color: #2c5943; font-size: .875rem; font-weight: 700; text-decoration: none; }
+.together-jump a:hover, .together-topic-list a:hover { border-color: #608268; background: #f1f6ef; }
+.together-jump a:focus-visible, .together-topic-list a:focus-visible, .together-pick a:focus-visible, .together-challenge a:focus-visible { outline: 3px solid #8caf82; outline-offset: 3px; }
+.together-pick, .together-journey, .together-projects, .together-showcase { scroll-margin-top: 24px; margin-bottom: clamp(46px, 6vw, 76px); }
+.together-pick__heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 18px; }
+.together-pick h2, .together-journey h2, .together-projects h2, .together-showcase h2 { margin: 7px 0 10px; color: var(--ink); font-family: var(--font-editorial); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 500; line-height: 1.12; letter-spacing: -.04em; }
+.together-pick__heading > a, .together-challenge__copy > a { color: #275c43; font-size: .875rem; font-weight: 750; }
+.together-topic-list { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 18px; }
+.together-topic-list a.is-selected { background: #315f45; border-color: #315f45; color: white; }
+.together-challenge { --challenge-bg: #e1ebd9; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(220px, .9fr); min-height: 340px; overflow: hidden; border-radius: 24px; background: var(--challenge-bg); }
+.together-challenge--stories { --challenge-bg: #f3e2d7; }
+.together-challenge--science { --challenge-bg: #e0edef; }
+.together-challenge__copy { position: relative; z-index: 1; align-self: center; padding: clamp(24px, 4vw, 46px); }
+.together-challenge h3 { margin: 10px 0; color: var(--ink); font-family: var(--font-editorial); font-size: clamp(1.7rem, 3vw, 2.65rem); font-weight: 500; letter-spacing: -.04em; line-height: 1.12; }
+.together-challenge p { max-width: 570px; line-height: 1.6; }
+.together-challenge ol { display: grid; gap: 7px; margin: 18px 0 24px; padding-left: 22px; font-size: .875rem; line-height: 1.5; }
+.together-challenge li::marker { color: #315f45; font-weight: 800; }
+.together-challenge img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.together-journey { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 370px); align-items: center; gap: clamp(20px, 4vw, 56px); padding: clamp(24px, 4vw, 52px); border-radius: 28px; background: #e9efe3; }
+.together-journey__copy > p { max-width: 610px; line-height: 1.6; }
+.together-journey__steps { display: grid; gap: 10px; margin: 28px 0; }
+.together-journey__steps span { display: block; padding: 13px 17px; border: 1px solid #bbcfb8; border-radius: 12px; background: #f7faf3; color: #2d5740; font-weight: 750; }
+.together-journey__note { color: #516b55; font-size: .8125rem; }
+.together-projects > p, .together-showcase > p { max-width: 720px; margin: 0 0 20px; line-height: 1.6; }
+.together-projects .project-prototype { margin-top: 24px; }
+.together-showcase .showcase-grid { margin-top: 24px; }
+@media (max-width: 850px) { .together-journey { grid-template-columns: 1fr; } .together-journey .growth-demo { width: min(100%, 480px); } }
+@media (max-width: 700px) { .together-pick__heading { align-items: start; flex-direction: column; } .together-challenge { grid-template-columns: 1fr; } .together-challenge img { grid-row: 1; height: 190px; } }
 .together-concept {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(260px, .7fr);

@@ -34,6 +34,7 @@
   font-weight: 700;
 }
 .activity-next-link:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.activity-detail__links { display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 0; }
 
 .activity-reveal { display: grid; grid-template-rows: 0fr; min-height: 0; opacity: 0; visibility: hidden; transition: grid-template-rows .32s cubic-bezier(.22, 1, .36, 1), opacity .2s ease, visibility .32s; }
 .activity-reveal[data-open=true] { grid-template-rows: 1fr; opacity: 1; visibility: visible; }

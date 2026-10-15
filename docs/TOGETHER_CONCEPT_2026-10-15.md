@@ -1,6 +1,6 @@
 # Together: shared learning and companion concept
 
-**Status:** Interactive, page-only showcase on `codex/together-avatar-concept`. Sample clicks award 1, 2, and 3 points and change the avatar. No real rewards, learner submissions, persistence, or publication are implemented.
+**Status:** Interactive, page-only showcase on `together-avatar-concept`. Sample clicks award 1, 2, and 3 points and change the avatar. No real rewards, learner submissions, persistence, or publication are implemented.
 
 ## Intended learner journey
 
